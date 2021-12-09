@@ -21,6 +21,6 @@ int main() {
       std::chrono::duration_cast<std::chrono::milliseconds>(end - start)
           .count();
 
-  std::cout << "Part 1: " << part1_ans << "\nTime: " << time1 << std::endl;
-  std::cout << "Part 2: " << part2_ans << "\nTime: " << time2 << std::endl;
+  std::cout << "\nPart 1: " << part1_ans << "\nTime: " << time1 << std::endl;
+  std::cout << "\nPart 2: " << part2_ans << "\nTime: " << time2 << std::endl;
 }
