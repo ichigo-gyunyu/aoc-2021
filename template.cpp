@@ -1,10 +1,6 @@
 #include <chrono>
 #include <iostream>
 
-using std::cin;
-using std::cout;
-using std::string;
-
 int64_t part1() { return 0; }
 
 int64_t part2() { return 0; }
@@ -25,8 +21,8 @@ int main() {
         std::chrono::duration_cast<std::chrono::milliseconds>(end - start)
             .count();
 
-    cout << "\nPart 1: " << part1_ans << "\nTime: " << time1 << "ms"
-         << std::endl;
-    cout << "\nPart 2: " << part2_ans << "\nTime: " << time2 << "ms"
-         << std::endl;
+    std::cout << "\nPart 1: " << part1_ans << "\nTime: " << time1 << "ms"
+              << std::endl;
+    std::cout << "\nPart 2: " << part2_ans << "\nTime: " << time2 << "ms"
+              << std::endl;
 }
